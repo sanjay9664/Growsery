@@ -1,0 +1,31 @@
+#order-form {
+    width: 20%;
+    height: 250px;
+    border: 1px solid black;
+    margin: auto;
+    padding-left: 20px;
+    border-radius: 15px;
+    background-color: teal;
+}
+
+#user_name {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#user_number {
+    padding: 10px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+#user_address {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#submit {
+    padding: 5px 110px 5px 110px;
+    border-radius: 10px;
+}

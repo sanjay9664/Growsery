@@ -1,0 +1,46 @@
+#navbar {
+    width: 99%;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+#groceries {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: center;
+}
+
+#groceries>div {
+    border: 1px solid;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+}
+
+.add_to_cart {
+    padding: 6px 32px;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    /* border: none; */
+}
+
+.add_to_cart:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
